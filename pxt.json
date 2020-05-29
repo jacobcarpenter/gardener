@@ -1,0 +1,25 @@
+{
+    "name": "gardener",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "controller": "*",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.1.7",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.0.5",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.7.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "game.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
